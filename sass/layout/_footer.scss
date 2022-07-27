@@ -1,0 +1,192 @@
+.footer {
+background: #1a0a25;
+padding: 22px 0;
+  height: 250px;
+
+  @media screen and (min-width: 768px) {
+    background: #1a0a25;
+    padding: 60px 0;
+    height: 155px;
+    // display: block;
+  }
+}
+
+   
+  
+  .footer__container {
+    // display: flex;
+    // align-items: baseline;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      text-align: left;
+    }
+  }
+  
+  .footer__content {
+    display: block;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+     margin-bottom: 0;
+     display: flex;
+    }
+
+    @media screen and(min-width: 1200px) {
+      // margin-right: 70px;
+      //  margin-left: -810px;
+    }
+  }
+
+  
+     .footer__text {
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+     }
+    
+
+  .footer__item {
+    margin-top: 9px;
+  }
+  
+
+  .footer-tablet {
+    margin-bottom: 60px;
+
+    @media screen and(min-width:768px) {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin-top: -15px;
+    // align-items: baseline;
+    }
+    @media screen and(min-width:1200px) {
+      margin-bottom: 0;
+      justify-content: space-between;
+    }
+  }
+          
+
+  .footer__texts {
+    font-size: 12px;
+      font-family: Fredoka One;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 15px;
+      margin-top: 5%;
+    
+    @media screen and(min-width:768px) {
+        font-size: 14px;
+        font-family: Fredoka One;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+
+    @media screen and(min-width:1200px) {
+        font-size: 14px;
+        font-family: Fredoka One;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+
+    @media screen and(min-width:1900px) {
+    font-size: 14px;
+      font-family: Fredoka One;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 15px;
+      margin-top: 0px;
+    }
+  }
+
+
+    .footer--accent {
+      justify-content: space-around;
+      font-size: 20px;
+      text-decoration: underline;
+      text-decoration-color: #f9da49;
+      text-underline-position: unset;
+      font-family: Fredoka One;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+        .footer__thumb {
+          margin-right: auto;
+          @media screen and (min-width: 768px) {
+              margin-right: 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-left: 78px;
+            }
+          @media screen and (min-width: 1200px) {
+              margin-right: 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-left: 180px;
+            }
+          @media screen and (min-width: 1900px) {
+            margin-right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 800px;
+          }
+        }
+
+                .footer__thumb--mail {
+                  font-size: 14px;
+                  font-family: Fredoka One;
+                  color: rgb(255, 255, 255);
+                  text-transform: uppercase;
+                  line-height: 1.2;
+                  text-align: center; margin-bottom: 15px;
+
+                  @media screen and (min-width: 768px) {
+                    margin-right: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 78px;
+                    margin-bottom: 0px;
+                  }
+                }
+
+        .footer__thumb--contact {
+          font-size: 20px;
+          text-decoration: underline;
+            text-decoration-color: #f9da49;
+            text-underline-position: unset;
+          text-transform: uppercase;
+            font-family: Fredoka One;
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+            text-align: center;
+            
+            @media screen and (min-width: 768px) {
+              margin-right: 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-left: 80px;
+            }
+        }

@@ -1,0 +1,154 @@
+.button__hero {
+  border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #78be20;
+    box-shadow: inset 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+    font-size: 26.285px;
+    font-family: Fredoka One;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 3px 0.99px rgba(0, 0, 0, 0.49);
+    // transition-duration: var(--duration);
+    // transition-timing-function: var(--function);
+    transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+        // transform: perspective(1px) translateZ(0);
+  
+    width: 210px;
+    height: 60px;
+  
+    border-color: rgb(109, 140, 24);
+    border-radius: 20px;
+    box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5),
+        0 -0.25rem 1.5rem rgb(50, 93, 48) inset,
+        0 0.75rem 0.5rem rgba(114, 133, 114, 0.4) inset,
+        0 0.25rem 0.5rem 0 rgb(83, 243, 91) inset;
+    // -webkit-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    //   -moz-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    //   box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+
+  @media screen and (min-width: 768px) {
+      border: none;
+      cursor: pointer;
+      border-radius: 20px;
+      background-color: #78be20;
+      box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+      font-size: 26.285px;
+      font-family: Fredoka One;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      text-shadow: 0px 3px 0.99px rgba(0, 0, 0, 0.49);
+      transition-duration: var(--duration);
+      transition-timing-function: var(--function);
+  
+      width: 220px;
+      height: 60px;
+  
+      border-color: rgb(109, 140, 24);
+      border-radius: 20px;
+      box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5),
+          0 -0.25rem 1.5rem rgb(50, 93, 48) inset,
+          0 0.75rem 0.5rem rgba(114, 133, 114, 0.4) inset,
+          0 0.25rem 0.5rem 0 rgb(83, 243, 91) inset;
+     
+    }
+
+  @media screen and (min-width: 1200px) {
+  border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #78be20;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+    font-size: 26.285px;
+    font-family: Fredoka One;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 3px 0.99px rgba(0, 0, 0, 0.49);
+    // transition-duration: var(--duration);
+    // transition-timing-function: var(--function);
+    transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+  
+    width: 240px;
+    height: 60px;
+
+    border-color: rgb(109, 140, 24);
+    border-radius: 20px;
+
+    // -webkit-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    // -moz-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    // box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5),
+        0 -0.25rem 1.5rem rgb(50, 93, 48) inset,
+        0 0.75rem 0.5rem rgba(114, 133, 114, 0.4) inset,
+        0 0.25rem 0.5rem 0 rgb(83, 243, 91) inset;
+  }
+
+  @media screen and (min-width: 1900px) {
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #78be20;
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.1);
+  font-size: 26.285px;
+  font-family: Fredoka One;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 3px 0.99px rgba(0, 0, 0, 0.49);
+  // transition-duration: var(--duration);
+  // transition-timing-function: var(--function);
+
+  width: 266px;
+  height: 60px;
+
+    border-color: rgb(109, 140, 24);
+    border-radius: 20px;
+    // -webkit-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    // -moz-box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    // box-shadow: inset 10px 11px 84px -40px rgba(0, 0, 0, 0.63);
+    box-shadow: 0 1rem 1.25rem 0 rgba(0, 0, 0, 0.5),
+        0 -0.25rem 1.5rem rgb(50, 93, 48) inset,
+        0 0.75rem 0.5rem rgba(114, 133, 114, 0.4) inset,
+        0 0.25rem 0.5rem 0 rgb(83, 243, 91) inset;
+  }
+
+   &:hover {
+    // transform: translateY(-13px) translateY(-9px) ;
+    //     transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    //     transition-duration: var(--duration);
+    //     transition-timing-function: var(--function);
+    transform: perspective(1px) translateZ(0);
+  // color: $main-title-color;
+  // background-color: $accent-color;
+  }
+}
+
+.button__hero:focus {
+  color: $main-title-color;
+}
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  // box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+

@@ -1,0 +1,79 @@
+.header {
+  // max-width: 1920px;
+  background-image: url(../images/Header.png);
+    // background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 887px;
+    max-width: 100vw;
+
+    @media screen and (min-width: 480px) {
+      max-width: 100vw;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 100vw;
+     }
+
+    @media screen and (min-width: 1200px) {
+      max-width: 100vw;
+           max-width: 1920px;
+            min-height: 850px;
+                height: 100%;
+         }
+
+    @media screen and (min-width: 1600px) {
+      max-width: 100vw;
+      // min-height: 30vh;
+    }
+  }
+  
+  .header__container {
+    // width: 100%;
+    // max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-size: contain;
+    // background-size: cover;
+   
+  }
+
+    .header__title {
+      margin-top: 40px;
+      font-size: 28px;
+      font-family: "Fredoka One";
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      // text-shadow: 0 10 0 rgba(17, 0, 16, 0.4);
+      text-shadow:rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px, 0 0 10px #4c2781, 0 0 20px #4c2284, 0 0 30px #5b2e8d, 0 0 40px #cdabe082;
+      
+
+      @media screen and (min-width: 768px) {
+        margin-top: 50px;
+        font-size: 35px;
+      }
+  
+      @media screen and (min-width: 1200px) {
+        margin-top: 45px;
+        font-size: 42px;
+        font-family: "Fredoka One";
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        // text-shadow: 0 10 0 rgba(17, 0, 16, 0.4);
+      text-shadow:rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px, 0 0 10px #4c2781, 0 0 20px #4c2284, 0 0 30px #5b2e8d, 0 0 40px #cdabe082;      
+    }
+        @media screen and (min-width: 1600px) {
+          font-size: 42px;
+          margin-top: 73px;
+        }
+    }
+  
