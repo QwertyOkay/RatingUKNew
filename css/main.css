@@ -488,8 +488,8 @@ body {
 }
 
 .icon__raiting {
-  width: 260px;
-  height: 65px;
+  width: 160px;
+  height: 80px;
 }
 
 .icon__footer-age {
@@ -1200,7 +1200,7 @@ body {
   background-color: #804cb9;
   border-radius: 50px;
   max-width: 1199px;
-  height: 380px;
+  height: 420px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -1262,8 +1262,8 @@ body {
   margin-top: -545px;
   background-repeat: repeat;
   background-size: cover;
-  background-size: 100% auto;
-  background-image: url(../images/Background2.png);
+  background-size: 100% 100%;
+  background-image: url(../images/Background-mob.png);
   background-position: center center;
   display: flex;
   align-items: center;
@@ -1322,7 +1322,7 @@ body {
     height: 203px;
     width: 285px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     box-shadow: inset -3px 0 0 #804cb9;
     background-color: #fff;
@@ -1335,7 +1335,7 @@ body {
     height: 170px;
     width: 500px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     box-shadow: inset -3px 0 0 #804cb9;
     background-color: #fff;
@@ -1549,8 +1549,8 @@ body {
   text-align: center;
   margin-left: 111px;
   margin-right: 100px;
-  margin-top: 11px;
-  margin-bottom: 10px;
+  margin-top: 16px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1577,6 +1577,23 @@ body {
     margin-right: 36px;
     margin-top: 0px;
     width: 212px;
+  }
+}
+
+.raiting__tc-links {
+  font-size: 12px;
+  position: relative;
+  text-decoration: none;
+  margin: 0 0 20px 0;
+  text-align: right;
+  width: 100%;
+  color: #fff;
+  padding-right: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  .raiting__tc-links {
+    padding-right: 130px;
   }
 }
 
