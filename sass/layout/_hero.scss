@@ -199,3 +199,32 @@
         text-decoration: underline;
         color: #fff;
       }
+
+.tc-tooltip {
+    font-size: 10px;
+    text-decoration: underline;
+    display: block;
+    color: #fff;
+    position: relative;
+}
+
+     .desktop-tooltip {
+    display: none;
+}
+
+.tooltip-content {
+    display: none;
+    background: #fff;
+    padding: 10px;
+    position: absolute;
+    margin: 10px 0 0;
+    color: #000;
+    z-index: 99;
+    font-size: 12px;
+    // width: 450px;
+    left: 0;
+}
+
+ .tc-tooltip:hover~.tooltip-content{
+ 	display: block;
+ }

@@ -4,29 +4,14 @@
 }
 
  .icon__footer-age {
-   width: 55px;
-   height: 55px;
-   margin: 0px auto;
-   /* padding: 8px 5px; */
-
-   @media screen and(min-width:768px) {
-     width: 55px;
-     height: 55px;
-     margin-right: 20px;
-     padding: 0px;
-   }
+   width: 44px;
+    height: 44px;
+    margin: 10px auto;
 
    @media screen and(min-width:1200px) {
-     width: 55px;
-     height: 55px;
-     margin-right: 20px;
-     padding: 0px;
+         width: 40px;
+    height: 40px;
+    margin-right: auto;
+    padding: 0px;
    }
-
-   @media screen and(min-width:1900px) {
-     width: 55px;
-     height: 55px;
-     margin-right: 20px;
-     padding: 0px;
-   }
- }
+  }

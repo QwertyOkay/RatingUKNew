@@ -1,7 +1,8 @@
 .overlay__text {
+  display: none;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    // width: 100%;
+    // height: 100%;
     bottom: 0;
     left: 0;
     overflow: auto;
@@ -18,9 +19,9 @@
     transition-timing-function: $function;
   }
   
-  .link__hero:hover .overlay__text,
-  .link__hero:focus .overlay__text {
-    transform: translatey(0);
+  .link__hero:hover .overlay__text {
+    // transform: translatey(0);
+    display: block;
   }
 
   .herobox__aside {
