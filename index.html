@@ -63,12 +63,12 @@
         </div>
         </section>
 
-      <section class="raiting section">
+      <section class="raiting section" id="raiting">
             <div class="container">
         <h2 hidden>Rating</h2>
         <div class="raiting__tc-links" > 
-          <a href="#" style="margin: 0 10px 0 0" data-modal-open3>Advertiser Disclosure</a>
-          <a href="#" data-modal-open2>18+ T&C Apply</a>
+          <a href="#raiting" style="margin: 0 10px 0 0" data-modal-open3>Advertiser Disclosure</a>
+          <a href="#raiting" data-modal-open2>18+ T&C Apply</a>
         </div> 
             <ul class="raiting__list">
           <li>
@@ -231,11 +231,11 @@
                 <div class="footer-tablet">
                     <div class="footer__content text-uppercase">
                         <div>Gambling Can Be Addictive, Please Play Responsibly</div>
-                        <div>2022 © topsafecasinos.net</div>
+                        <div>2022 © jamminjarslot.com/</div>
                         <img srcset="./images/Age.png 1x, ./images/Age.png 2x" src="./images/Age.png" alt="Age"
                             class="icon__footer-age">
 
-                    <div>
+                    <div id="footer">
                         <a href="https://www.begambleaware.org/">BE GAMBLE AWARE</a>
                         |
                         <a href="https://www.gamcare.org.uk/">Gamcare</a>
@@ -243,10 +243,10 @@
                         <a href="https://www.gamblingtherapy.org/en">Gambling Therapy</a>
                     </div>
                     <noindex>
-                        <a href="">Privacy Policy</a>
+                        <a href="#footer" data-modal-open4>Privacy Policy</a>
                     </noindex>
                         |
-                        <a href="">CONTACT US</a>
+                        <a href="#">CONTACT US</a>
             </div>
             </div>
             </div>
@@ -298,6 +298,99 @@
                 </span> 
             </div>
         </div>  
+
+        <div class="modal__backdrop4 is-hidden4" data-modal4>
+            <div class="modal4" data-form-modal4>
+                <button type="button" class="button__modal4" data-modal-close4> 
+                    <svg class="icon__close4">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+
+                <div style="padding: 10px;">
+                <span class="modal__hero-text">
+                    <p class="modal__p">This privacy policy aimed to explain how jamminjarslot.com (“we”, “our” or “us”) 
+                        uses and protects any data that visitors (“you”, “your”) provide us when you use our website. </p>
+                        <p class="modal__p">
+                            We may gather personal identification information from visitors of our website in the following cases:
+                        </p>
+                        <ul class="modal__ul">
+                            <li style="display: list-item;
+                            text-align: -webkit-match-parent; list-style: disc;">when you access our website, we may collect IP address and Location data;</li>
+                            <li style="display: list-item;
+                            text-align: -webkit-match-parent; list-style: disc;">when a visitor contacts us and provides personal 
+                                information such as email address or name; then we will only use this data to send you a reply.</li>
+                        </ul>
+                        <h3>Cookies</h3>
+                        <p class="modal__p">We use “cookies” on this site. A cookie is a small text file which our website sends to your hard drive 
+                            to help us keep track of your movements within the site and carry out research to improve our marketing content, 
+                            products and services. Usage of a cookie does not concern any personal information of yours.</p>
+                            <p class="modal__p">
+                                We use Google Analytics on our website, which in its turn uses cookies to track your behavior on our site & your preferences. 
+                                This data then used by us to compile statistical marketing reports via Google Analytics. 
+                                We never share any data with third parties, however we are in no control of processing of such data by Google. 
+                            </p>
+                            <p class="modal__p">
+                                The settings of cookies can be changed in your browser should you wish to accept or reject all cookies when you visit websites.
+                            </p>
+                            <p class="modal__p">jamminjarslot.com contains links to other websites. 
+                                When you use these links to leave our site, please be advised that we do not have any control over other websites. 
+                                Therefore, we cannot be responsible for the protection and privacy 
+                                of any information which you provide when visiting such sites and such sites are not governed by this privacy statement.</p>
+                                <p class="modal__p">
+                                    We may update this policy from time to time. The updated version will be placed on this page.
+                                </p>
+                                <p class="modal__p">
+                                    This site is not intended for use by anyone under the age of 18.
+                                </p>
+                                <p class="modal__p">
+                                    If you have any questions regarding this Privacy Policy, feel free to reach us
+                                </p>
+                    <!-- <span class="modal__close4" data-modal-close4>Close window</span> -->
+                </span>
+            </div>
+
+            </div>
+        </div>  
+
+        <div class="modal__backdrop5 is-hidden5" data-modal5>
+            <div class="modal5" data-form-modal5>
+                <button type="button" class="button__modal5" data-modal-close5> 
+                    <svg class="icon__close5">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+
+                <form autocomplete="on" class="modal__form">
+                    <p class="modal__heading">Leave your data below</p>
+
+                    <label class="modal__thumb">
+                        <span class="modal__label">Name</span>
+                        <input class="modal__input" type="text" name="order-name" id="order-name"> 
+                        <svg class="icon__modal-img">
+                         <use href="./images/icons.svg#person"></use>  
+                        </svg>       
+                    </label>
+            
+                    <label class="modal__thumb">
+                        <span class="modal__label">Email</span>
+                        <input type="email" name="order-mail" id="order-mail" class="modal__input">
+                        <svg class="icon__modal-img">
+                            <use href="./images/icons.svg#icon-emailblack"></use>  
+                           </svg>      
+                        </label>       
+            
+                    <label class="modal__thumb">
+                        <span class="modal__label">Text</span> 
+                        <textarea name="modal-area" id="modal-area" 
+                        placeholder="Leave your text here" class="modal__area"></textarea>
+                    </label>
+                    
+                    <button type="submit" class="modal-button__btn">Submit</button>
+                </form>
+
+            </div>
+        </div>
                 
 
 <script src="./js/modal.js"></script>

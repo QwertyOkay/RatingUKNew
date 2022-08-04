@@ -153,3 +153,48 @@
   transform: scale(1.1);
 }
 
+
+.button__modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.1);
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button__modal4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.1);
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus, 
+    &:hover {
+       color: brown;
+  }
+}
