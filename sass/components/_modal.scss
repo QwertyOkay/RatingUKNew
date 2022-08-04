@@ -159,7 +159,7 @@
 }
 
 .modal__input5::placeholder {
-    color: rgb(163, 159, 159);
+    color: rgb(45, 45, 45);
 }
 
 
@@ -189,7 +189,7 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
+    color: rgb(153 39 181);
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
@@ -203,7 +203,8 @@
 }
 
 .modal__area::placeholder {
-    color: rgba(221, 219, 219, 0.987);
+    color: rgba(170, 169, 169, 0.987);
+    font-weight: 200;
 }
 
 .modal__checkbox {
