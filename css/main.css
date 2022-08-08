@@ -1414,7 +1414,7 @@ body {
 .hero__slotsstar {
   position: absolute;
   height: 248px;
-  width: 357px;
+  width: 365px;
   top: -1016px;
   margin-left: 33px;
 }
@@ -1476,7 +1476,7 @@ body {
     background-color: #fff;
     margin: 0px auto;
     height: 215px;
-    width: 310px;
+    width: 331px;
     border-radius: 0 0 50% 50% / 0 0 30px 30px;
   }
 }
@@ -1512,7 +1512,7 @@ body {
 }
 
 .title__hero {
-  font-size: 22px;
+  font-size: 20px;
   font-family: Fredoka One;
   color: #fff;
   text-transform: uppercase;
