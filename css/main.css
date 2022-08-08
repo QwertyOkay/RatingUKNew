@@ -1629,6 +1629,7 @@ body {
   z-index: 99;
   font-size: 12px;
   left: 0;
+  right: 0;
 }
 
 .tc-tooltip:hover ~ .tooltip-content {
