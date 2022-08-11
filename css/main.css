@@ -815,6 +815,10 @@ body {
   fill: var(--accent-color);
 }
 
+.modal__input5._error {
+  box-shadow: 0 0 0 5px #f9da49;
+}
+
 .modal__thumb-textarea {
   margin-bottom: 10px;
 }

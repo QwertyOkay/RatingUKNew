@@ -167,6 +167,10 @@
     fill: var(--accent-color);
 }
 
+.modal__input5._error {
+    box-shadow: 0 0 0 5px #f9da49;
+}
+
 // .modal__icon {
 //   position: relative;
 // }
@@ -625,6 +629,10 @@
     color: #212121;
 }
 
+// .modal__form5._error {
+//     box-shadow: 0 0 0 15px red;
+// }
+
 .modal__thumb5 {
     position: relative;
     display: block;
@@ -632,3 +640,8 @@
     margin-bottom: 10px;
     color: #212121;
 }
+
+// .modal__thumb5._error {
+//     box-shadow: 0 0 0 15px #9927B5;
+//     border: 2px;
+// }
