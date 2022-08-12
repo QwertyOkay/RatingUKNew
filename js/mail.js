@@ -1,70 +1,38 @@
-"use strict"
+    const forms = document.querySelectorAll('form');
+    const message = {
+    success: 'Thank you!',
+    failure: 'Something went wrong. Please try again'
+};
 
-document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('form');
-    form.addEventListener('submit', formSend);
+    forms.forEach(item => {
+        postData(item);
+    });
 
-    async function formSend(e) {
+
+    function postData(form) {
+    form.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        let error = formValidate(form);
+        const formData = new FormData(form);
 
-        let formData = new FormData(form);
- 
-        if (error === 0) {
-            let response = await fetch('/sendmail.php', {
-            method: 'post',
-            body: formData
-            });
-            if (response.ok) {
-            let result = await response.json();
-            alert(result.message);
+        const object = {};
+        formData.forEach(function(value, key){
+            object[key] = value;
+        });
+        
+        fetch('phpmailer/sendmail.php', {
+                method: 'POST',
+                headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(object)
+        }).then(data => {
+            console.log(data);
+            alert(message.success);
+        }).catch(() => {
+            alert(message.failure);
+        }).finally(() => {
             form.reset();
-            } else {
-            alert('Error. Please try again');
-            }
-        } else {
-            alert('PLease enter your details');
-        }
+        });
+    });   
     }
-
-
-    function formValidate(form) {
-        let error = 0;
-        let formReq = document.querySelectorAll('._req');
-
-        for (let index = 0; index < formReq.length; index++) {
-            const input = formReq[index];
-            formRemoveError(input);
-
-            if (input.classList.contains('_email')) {
-                if (emailTest(input)) {
-                    formAddError(input);
-                    error++;
-                }
-            } else {
-                if (input.value === '') {
-                    formAddError(input);
-                    error++;
-                }
-            }
-        }
-        return error;
-    }
-
-    function formAddError(input) {
-        input.parentElement.classList.add('_error');
-        input.classList.add('_error');
-    }
-    function formRemoveError(input) {
-        input.parentElement.classList.remove('_error');
-        input.classList.remove('_error');
-    }
-
-    // Test email
-    function emailTest(input) {
-        return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);   
-    }
-
-});
-
