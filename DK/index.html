@@ -332,12 +332,21 @@
                     </svg>
                 </button>
 
-                <form autocomplete="on" class="modal__form5">
+                <form autocomplete="on" 
+                class="modal__form5"
+                action="send_mail.php"
+                id="form" 
+                name="form"
+                method="post">
                     <p class="modal__heading5">Please enter your details below</p>
 
                     <label class="modal__thumb5">
                         <span class="modal__label">Name</span>
-                        <input class="modal__input5" type="text" name="order-name" id="order-name"> 
+                        <input class="modal__input5" 
+                        type="text" 
+                        name="name" 
+                        id="name"> 
+
                         <svg class="icon__modal-img">
                          <use href="./images/icons.svg#person"></use>  
                         </svg>       
@@ -345,7 +354,11 @@
             
                     <label class="modal__thumb5">
                         <span class="modal__label">Email</span>
-                        <input type="email" name="order-mail" id="order-mail" class="modal__input5">
+                        <input type="email" 
+                        name="email" 
+                        id="order-mail" 
+                        class="modal__input5">
+
                         <svg class="icon__modal-img">
                             <use href="./images/icons.svg#icon-emailblack"></use>  
                            </svg>      
@@ -353,8 +366,10 @@
             
                     <label class="modal__thumb5">
                         <span class="modal__label">Text</span> 
-                        <textarea name="modal-area" id="modal-area" 
-                        placeholder="Leave your text here" class="modal__area"></textarea>
+                        <textarea name="message" 
+                        id="message" 
+                        placeholder="Leave your text here" 
+                        class="modal__area"></textarea>
                     </label>
 
                     <button type="submit" class="modal-button__btn">Submit</button>

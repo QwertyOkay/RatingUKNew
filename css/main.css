@@ -672,13 +672,117 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal__backdrop6 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.62);
+  opacity: 1;
+  visibility: visible;
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__backdrop7 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.62);
+  opacity: 1;
+  visibility: visible;
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__backdrop8 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.62);
+  opacity: 1;
+  visibility: visible;
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__backdrop9 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.62);
+  opacity: 1;
+  visibility: visible;
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal__backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
 
+.modal__backdrop6.is-hidden6 {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__backdrop7.is-hidden7 {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__backdrop8.is-hidden8 {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__backdrop9.is-hidden9 {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal__backdrop.is-hidden > .modal {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(2.9);
+}
+
+.modal__backdrop6.is-hidden6 > .modal6 {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(2.9);
+}
+
+.modal__backdrop7.is-hidden7 > .modal7 {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(2.9);
+}
+
+.modal__backdrop8.is-hidden8 > .modal8 {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(2.9);
+}
+
+.modal__backdrop9.is-hidden9 > .modal9 {
   opacity: 0;
   transform: translate(-50%, -50%) scale(2.9);
 }
@@ -710,6 +814,130 @@ body {
 
 @media screen and (min-width: 1200px) {
   .modal {
+    width: 528px;
+  }
+}
+
+.modal6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(1);
+  width: 90%;
+  height: auto;
+  padding: 15px 15px 0px 15px;
+  background-color: var(--main-title-color);
+  opacity: 1;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition-property: opacity, transform;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+}
+
+@media screen and (min-width: 480px) {
+  .modal6 {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal6 {
+    width: 528px;
+  }
+}
+
+.modal7 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(1);
+  width: 90%;
+  height: auto;
+  padding: 15px 15px 0px 15px;
+  background-color: var(--main-title-color);
+  opacity: 1;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition-property: opacity, transform;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+}
+
+@media screen and (min-width: 480px) {
+  .modal7 {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal7 {
+    width: 528px;
+  }
+}
+
+.modal8 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(1);
+  width: 90%;
+  height: auto;
+  padding: 15px 15px 0px 15px;
+  background-color: var(--main-title-color);
+  opacity: 1;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition-property: opacity, transform;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+}
+
+@media screen and (min-width: 480px) {
+  .modal8 {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal8 {
+    width: 528px;
+  }
+}
+
+.modal9 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(1);
+  width: 90%;
+  height: auto;
+  padding: 15px 15px 0px 15px;
+  background-color: var(--main-title-color);
+  opacity: 1;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition-property: opacity, transform;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+}
+
+@media screen and (min-width: 480px) {
+  .modal9 {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal9 {
     width: 528px;
   }
 }
@@ -959,6 +1187,30 @@ body {
 }
 
 .modal__close {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: brown;
+}
+
+.modal__close6 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: brown;
+}
+
+.modal__close7 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: brown;
+}
+
+.modal__close8 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: brown;
+}
+
+.modal__close9 {
   margin-bottom: 5px;
   text-transform: uppercase;
   color: brown;

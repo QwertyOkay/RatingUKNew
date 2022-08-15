@@ -23,7 +23,7 @@ $body = str_replace('%message%', $message, $body); /* строку %message% н�
 
 $mail->addAddress("thetop2022rating@outlook.com"); /* Здесь введите Email, куда отправлять */
 $mail->setFrom($email);
-$mail->Subject = "[Contac Us - MegaJokerCasino.com]"; /* Тема письма */
+$mail->Subject = "[Contac Us - MegaJokerCasino.com/DK]"; /* Тема письма */
 $mail->MsgHTML($body);
  
 /* Проверяем отправлено ли сообщение */
